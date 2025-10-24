@@ -10,12 +10,10 @@ A simple **Python + SQLite** project that recommends movies to users based on th
 
 ## Project Structure
 ```
-movie-recommendation-system
-├── data
-│   └── movies.csv
-├── src
-│   ├── setup_Db.py
-│   └── recommend.py
+movieProject/
+├── movies.csv
+├── setup_Db.py
+├── recommend.py
 ├── requirements.txt
 └── README.md
 ```
@@ -27,7 +25,7 @@ git clone https://github.com/yourusername/movie-recommendation-system.git
 ```
 2. Navigate to the project folder:
 ```bash
-cd movie-recommendation-system
+cd movieProject
 ```
 3. Install required Python libraries:
 ```bash
@@ -37,11 +35,11 @@ pip install -r requirements.txt
 ## How to Use
 1. Setup the database (run once):
 ```bash
-python src/setup_Db.py
+python setup_Db.py
 ```
 2. Run the recommendation script:
 ```bash
-python src/recommend.py
+python recommend.py
 ```
 3. Enter your favorite genre when prompted (e.g., Sci-Fi, Action, Romance, Adventure).
 
@@ -65,6 +63,14 @@ Top Movie for You:
 - Python 3.x
 - SQLite
 - pandas library
+
+## Files Description
+| File | Description |
+|------|-------------|
+| `movies.csv` | Sample dataset containing movie titles, genres, and ratings. |
+| `setup_Db.py` | Script to create SQLite database and insert data from CSV. |
+| `recommend.py` | Script to recommend movies based on user input genre. |
+| `requirements.txt` | Python dependencies for the project. |
 
 ## Author
 Your Name  
