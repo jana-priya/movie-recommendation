@@ -14,7 +14,6 @@ movieProject/
 ├── movies.csv
 ├── setup_Db.py
 ├── recommend.py
-├── requirements.txt
 └── README.md
 ```
 
@@ -27,10 +26,7 @@ git clone https://github.com/yourusername/movie-recommendation-system.git
 ```bash
 cd movieProject
 ```
-3. Install required Python libraries:
-```bash
-pip install -r requirements.txt
-```
+
 
 ## How to Use
 1. Setup the database (run once):
@@ -70,8 +66,7 @@ Top Movie for You:
 | `movies.csv` | Sample dataset containing movie titles, genres, and ratings. |
 | `setup_Db.py` | Script to create SQLite database and insert data from CSV. |
 | `recommend.py` | Script to recommend movies based on user input genre. |
-| `requirements.txt` | Python dependencies for the project. |
 
 ## Author
-Your Name  
-GitHub: https://github.com/yourusername
+Janapriya S P 
+GitHub: https://github.com/jana-priya
